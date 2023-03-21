@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tech{
+  background-image: url('./imageAsset/technology/background-technology-desktop.jpg');
+  height: 100vh;
+  width: 100vw;
+}
+
+.crew{
+  background-image: url('./imageAsset/crew/background-crew-desktop.jpg');
+  height: 100vh;
+  width: 100vw;
+}
+
+.homepage{
+  background-image: url('./imageAsset/home/background-home-desktop.jpg');
+  height: 100vh;
+  width: 100vw;
+}
+
+.destination{
+  background-image: url('./imageAsset/destination/background-destination-desktop.jpg');
+  height: 100vh;
+  width: 100vw;
+}
+
+@media screen and (max-width: 975px) {
+  .tech{
+    background-image: url('./imageAsset/technology/background-technology-tablet.jpg');
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .crew{
+    background-image: url('./imageAsset/crew/background-crew-tablet.jpg');
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .homepage{
+    background-image: url('./imageAsset/home/background-home-tablet.jpg');
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .destination{
+    background-image: url('./imageAsset/destination/background-destination-tablet.jpg');
+    height: 100vh;
+    width: 100vw;
+  }
+  
+}
+@media screen and (max-width: 480px) {
+  .tech{
+    background-image: url('./imageAsset/technology/background-technology-mobile.jpg');
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .crew{
+    background-image: url('./imageAsset/crew/background-crew-mobile.jpg');
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .homepage{
+    background-image: url('./imageAsset/home/background-home-mobile.jpg');
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .destination{
+    background-image: url('./imageAsset/destination/background-destination-mobile.jpg');
+    height: 100vh;
+    width: 100vw;
+  }
+  
+}
