@@ -5,7 +5,6 @@ const Technology:FC = () => {
   return (
     <div className='tech'>
       <Header />
-      <h1>sogo</h1>
     </div>
   )
 }

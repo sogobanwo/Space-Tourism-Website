@@ -12,14 +12,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        veryLightgrey: 'rgba(0, 0, 0, 0.06)',
-        lightGrey: 'rgba(76, 78, 100, 0.54)',
+        TextColor1: 'rgba(241,245,249,.5)',
+        TextColor2: 'rgba(76, 78, 100, 0.54)',
       },
       fontFamily: {
-        'DMSans': ['DM Sans', 'sans-serif'],
-        'Inter': ['Inter', 'sans-serif'],
-        'WorkSans': ['Work Sans', 'sans-serif']
+        'robotoSlab': ['Roboto Slab', 'serif'],
+        'robotoCondensed': ['Roboto Condensed', 'sans-serif'],
+
       },
+      
     },
   },
   plugins: [

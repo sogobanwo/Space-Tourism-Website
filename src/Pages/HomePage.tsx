@@ -1,11 +1,12 @@
 import React, { FC } from 'react'
 import Header from '../components/header'
+import HompageContent from '../components/HompageContent'
 
 const HomePage:FC = () => {
   return (
     <div className='homepage'>
       <Header />
-      <h1>sogo</h1>
+      <HompageContent />
     </div>
   )
 }
